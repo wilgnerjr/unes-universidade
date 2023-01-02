@@ -1,0 +1,53 @@
+/* estilizando moblie */
+@media (max-width:700px) {
+    body{
+        background-color: rgb(241, 241, 241);
+    }
+    /* ===============header========= */
+    header{
+        flex-direction: column;
+        padding: 0 10px;
+        border-bottom: none;  
+
+    }
+    header > img{
+        width: 100px;
+        height: 35px;
+    }
+    header > .logo-pc{
+        display: none;
+    }
+    header > .logo-cell{
+        display: block;
+        margin: 120px auto 0px;
+    }
+    .menu{
+        position: fixed;
+        width: 100vw;
+        text-align: center;
+        background-color:  #383f5d;
+        padding: 20px;
+        border-bottom: 1px solid black;
+        box-shadow: 1px 1px 5px rgb(124, 124, 124);
+    }
+    .menu > li,.menu>li>a {
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+    }
+    .menu > li:hover {
+        background-color: transparent;
+        cursor: cell;
+    }
+    /* ===============main============ */
+    main{
+        width: 100%;
+        box-shadow: none;
+        border-radius: 0;
+        background-color: transparent;
+    }
+    main > img{
+        padding: 0;
+        border-radius: 20px;
+        box-shadow: 1px 1px 8px gray;
+    }
+}
