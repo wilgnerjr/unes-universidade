@@ -38,6 +38,7 @@ header > .menu > li >a:hover{
 }
 /* =========ESTILIZANDO O MAIN=========== */
 main{
+    height: 100%;
     margin: 40px auto;
     margin-top: 28px;
     width: 80%;
@@ -68,7 +69,8 @@ main > p{
 }
 /* ======ESTILIZANO O FOOTER========= */
 footer{
-    height: 20px;
+    height: 100%;
+    padding: 10px 0;
     background-color: #383f5d;
 }
 footer >p{
